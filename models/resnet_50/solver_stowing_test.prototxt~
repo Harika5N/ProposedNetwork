@@ -1,0 +1,65 @@
+#net: "/home/isl-server/ashish/pspnet_ws/arc17_prototxt_training_modified/resnet50_FPN_train_stowing_online.prototxt"
+#net: "/home/isl-server/ashish/pspnet_ws/arc17_prototxt_training_modified/resnet50_FPN_train_stowing.prototxt"
+#net: "/home/isl-server/ashish/pspnet_ws/arc17_prototxt_training_modified/resnet50_train.prototxt"
+#net: "/home/isl-server/ashish/pspnet_ws/arc17_prototxt_training_modified/resnet50_train.prototxt"
+
+#net: "/home/manish/kanika/kanika/pspnet50_TrainTest.prototxt"
+#net: "/home/manish/kanika/kanika/resnet50_FPN_train_stowing_modified_test_kanika.prototxt"
+#net: "/home/manish/kanika/kanika/kanika.prototxt"
+#net: "/home/manish/kanika/kanika/kanikaIncLay.prototxt"
+#net: "/home/manish/kanika/kanika/kanikaIncLr.prototxt"
+net: "/home/manish/kanika/kanika/final_prototxts/kanika_final.prototxt"
+#net: "/home/manish/kanika/kanika/kanika_deconv.prototxt"
+#net: "/home/manish/kanika/kanika/kanikaIncLr2_noaux.prototxt"
+#learning rate policy
+#    - fixed: always return base_lr.
+#    - step: return base_lr * gamma ^ (floor(iter / step))
+#    - exp: return base_lr * gamma ^ iter
+#    - inv: return base_lr * (1 + gamma * iter) ^ (- power)
+#    - multistep: similar to step but it allows non uniform steps defined by stepvalue
+#    - poly: the effective learning rate follows a polynomial decay, to be zero by the max_iter.
+#      return base_lr (1 - iter/max_iter) ^ (power)
+#    - sigmoid: the effective learning rate follows a sigmod decay
+#      return base_lr ( 1/(1 + exp(-gamma * (iter - stepsize))))
+
+test_initialization:false
+test_iter: 1200 # how many mini-batches to test in each validation phase
+#test_iter: 1
+#test_iter: 7
+test_interval: 1483 # how often do we call the test phase
+#test_interval: 501
+
+lr_policy: "step"
+average_loss: 40
+#base_lr: 1e-2
+base_lr: 0.001
+#base_lr: 1e-3
+stepsize: 5000
+gamma: 0.1
+
+#lr_policy: "poly"
+#power: 0.9
+#base_lr: 1e-1
+momentum: 0.90
+weight_decay: 0.0001
+
+# mode
+# CPU 0
+# GPU 1
+# type
+# SGD = 0,
+# NESTEROV = 1,
+# ADAGRAD = 2,
+# RMSPROP = 3,
+# ADADELTA = 4,
+# ADAM = 5
+
+solver_mode: 1
+solver_type: 0
+
+iter_size: 1
+max_iter: 1484
+display: 1
+snapshot: 1482
+snapshot_prefix: "/home/manish/kanika/kanika/final_paper_results/MIT/proposed50/30min_final"
+

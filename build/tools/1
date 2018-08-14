@@ -1,0 +1,457 @@
+ 1002  cd  ..
+ 1009  ./caffe train -gpu 0 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/proposedNet2/final__iter_1135.caffemodel 
+ 1012  make -j40
+ 1018  ./caffe train -gpu 0 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/proposedNet2/final__iter_1135.caffemodel 
+ 1020  sudo apt-get upgrade
+ 1021  sudo apt-get update
+ 1022  sudo apt-get install proto*
+ 1023  sudo apt-get update
+ 1024  nvdia-smi
+ 1025  nvidia-smi
+ 1026  sudo reboot
+ 1027  /media/usb0/arc
+ 1028  cd /media/usb0/arc
+ 1029  ls
+ 1032  sudo nano .bashrc
+ 1037  python2
+ 1042  cmake ..
+ 1050  cd Mask_RCNN-2.0/
+ 1052  python3 coco_arc.py train --dataset=/media/usb0/arc --model=last
+ 1062  gpg --keyserver keyserver.ubuntu.com --recv-keys 381BA480
+ 1072  sudo apt-get install
+ 1082  cd /var/nccl-repo-2.1.4-ga-cuda8.0/
+ 1092  sudo apt-get install unity
+ 1102  exit
+ 1104  cd Mask_RCNN-2.0/
+ 1112  cmake ..
+ 1117  ./caffe train -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1120  sudo watch nvidia-smi
+ 1121  source activate maskrcnn
+ 1122  cd Mask_RCNN-2.0/
+ 1123  python3 coco_arc.py train --dataset=/media/usb0/arc --model=last
+ 1124  python3 coco_arc.py evaluate --dataset=/media/usb0/arc --model=last --limit=10
+ 1125  cd kanika/kanika/PspNet-Caffe/
+ 1126  cd caffe_pspnet/build/
+ 1127  make pycaffe
+ 1128  cd tools
+ 1129  ./caffe train -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/proposedNet2/final__iter_1135.caffemodel 
+ 1132  sudo apt-get uninstall protobuf==2.5.0
+ 1133  sudo pip uninstall protobuf==2.5.0
+ 1142  sudo apt-get install protobuf
+ 1144  python2
+ 1152  ls
+ 1162  pwd
+ 1172  cd /media/usb0
+ 1179  scp -r /home/manish/kanika/kanika manish@172.21.208.195: 
+ 1182  pyzbar
+ 1185  ./caffe train -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1187  ./caffe train -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1188  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1190  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1192  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1196  python2.7 capsulenet.py
+ 1198  python2.7 capsulenet.py
+ 1200  cd models
+ 1201  cd ..
+ 1202  cd models2
+ 1203  sudo cp *.h5 /media/usb0/vivek
+ 1204  cd
+ 1205  sudo cp actual_printedDataset/train_set/     /media/usb0/vivek/
+ 1206  sudo cp -r actual_printedDataset/train_set/.     /media/usb0/vivek/
+ 1207  cd vivek/
+ 1208  cd Capsule_network/
+ 1209  cd CapsNet-Keras-master/
+ 1210  cd result/
+ 1211  cd models3
+ 1212  sudo cp *.h5 /media/usb0/vivek/
+ 1213  cd vivek/
+ 1214  cd Capsule_network/
+ 1215  cd CapsNet-Keras-master/
+ 1216  python2.7 capsule.py
+ 1217  python2.7 capsulenet.py
+ 1218  sudo watch nvidia-smi
+ 1219  cd PycharmProjects/batch_code_recognition_django/
+ 1220  ls
+ 1221  python manage.py makemigrations
+ 1222  echo $PYTHONPATH
+ 1223  export PYTHONPATH="${PYTHONPATH}:/home/manish/PycharmProjects/batch_code_recognition_django/batch_code_recognition/BatchNumberRecognition/localization"
+ 1224  echo $PYTHONPATH
+ 1225  python manage.py makemigrations
+ 1226  python manage.py migrate
+ 1227  python manage.py runserver 0.0.0.0:8000
+ 1228  python manage.py createsuperuser
+ 1229  python manage.py runserver 0.0.0.0:8000
+ 1230  exit
+ 1231  http POST
+ 1232  apt-get install httpie
+ 1233  sudo apt-get install httpie
+ 1234  http
+ 1235  http post http://172.21.208.177/api/capture/
+ 1236  http post http://172.21.208.177:8000/api/capture/
+ 1237  python
+ 1238  http post http://172.21.208.177:8000/api/capture/
+ 1239  exit
+ 1240  cd PycharmProjects/batch_code_recognition_django/
+ 1241  python manage.py runserver 0.0.0.0:8000
+ 1242  export PYTHONPATH="${PYTHONPATH}:/home/manish/PycharmProjects/batch_code_recognition_django/batch_code_recognition/BatchNumberRecognition/localization"
+ 1243  python manage.py runserver 0.0.0.0:8000
+ 1244  sudo watch nvidia-smi
+ 1245  cd vivek/
+ 1246  cd Capsule_network/
+ 1247  cd CapsNet-Keras-master/
+ 1248  python2.7 capsulenet.py
+ 1249  cd result/
+ 1250  ls
+ 1251  sudo cp trained_model.h5 /media/usb0/vivek/
+ 1252  python2.7 capsulenet.py
+ 1253  cd ..
+ 1254  python2.7 capsulenet.py
+ 1255  cd PycharmProjects/batch_code_recognition_django/
+ 1256  cd media/
+ 1257  ls
+ 1258  cd debug/
+ 1259  ls
+ 1260  python
+ 1261  cd PycharmProjects/batch_code_recognition_django/
+ 1262  top
+ 1263  ps -ef
+ 1264  ps -ef | image
+ 1265  ps -ef | grep image
+ 1266  ps -ef | grep Image
+ 1267  ps -ef
+ 1268  kill -9 29831
+ 1269  kill -9 29788
+ 1270  kill -9 29697
+ 1271  cd
+ 1272  cd vivek/
+ 1273  ls
+ 1274  cd models/
+ 1275  sudo cd *.jpg /media/usb0/vivek
+ 1276  sudo cp *.jpg /media/usb0/vivek
+ 1277  cd
+ 1278  sudo pip install channels
+ 1279  sudo pip install asgi-redis
+ 1280  sudo apt-get install redis-server 
+ 1281  sudo pip install channels==1.1.8
+ 1282  pip freeze
+ 1283  sudo pip install --upgrade pyopenssl
+ 1284  python
+ 1285  sudo reboot 
+ 1286  python
+ 1287  ping 172.21.208.215
+ 1288  sudo watch nvidia-smi
+ 1289  cd /media/usb0
+ 1290  cd kanika
+ 1291  ls
+ 1292  sudo cp kanika_deconv_server.prototxt /home/manish/kanika/kanika/
+ 1293  cd
+ 1294  cd kanika/kanika/
+ 1295  cd PspNet-Caffe/caffe_pspnet/build/tools/
+ 1296  ./caffe train -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1297  ./caffe train -s-gpu 0,1 solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1298  ./caffe train -gpu 0,1 solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1299  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model 
+ 1302  cd /home/manish/
+ 1312  history
+ 1313  http post http://172.21.208.177:8000/api/capture/
+ 1314  ping 192.168.1.101
+ 1316  http post http://172.21.208.177:8000/api/capture/
+ 1320  sudo watch nvidia-smi
+ 1321  cd kanika/kanika/PspNet-Caffe/caffe_pspnet/build/tools/
+ 1322  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -model /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1323  sudo reboot
+ 1324  source activate maskrcnn_kanika.log 
+ 1325  source activate maskrcnn
+ 1326  gedit .bashrc
+ 1327  source activate maskrcnn
+ 1328  hostname -I
+ 1329  cd kanika/kanika/
+ 1332  cd ..
+ 1342  rm -rf build
+ 1352  make -j40
+ 1362  cd /usr/include
+ 1367  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1368  ./caffe train -s-gpu 0,1 solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1369  ./caffe train -gpu 0,1 solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1370  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1372  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1373  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/PSPNet/DecLr__iter_1230.caffemodel
+ 1382  make
+ 1392  make install
+ 1402  cd kanika/pspnet_test/build/
+ 1406  ./test2
+ 1412  cd pspnet_test/
+ 1420  teamviewer
+ 1421  teamviewer
+ 1422  cd kanika
+ 1423  cd pspnet_test
+ 1424  cd build
+ 1425  ./test
+ 1426  cd kanika/pspnet_test/build/
+ 1427  ./test2
+ 1428  cd kanika/pspnet_test/build/
+ 1429  ./test2
+ 1432  cmake ..
+ 1440  ./test2
+ 1442  sudo cp /home/manish/anaconda3/envs/maskrcnn/lib/python3.5/site-packages/pycocotools/cocoeval.py /media/usb0/arc/ 
+ 1446  ./test2
+ 1450  cp image_24002.png /home/manish/mask_result/comparison/pspnet/
+ 1451  cp image_240015.png /home/manish/mask_result/comparison/pspnet/
+ 1452  cp image_24015.png /home/manish/mask_result/comparison/pspnet/
+ 1453  cp image_24014.png /home/manish/mask_result/comparison/pspnet/
+ 1454  cp image_24016.png /home/manish/mask_result/comparison/pspnet/
+ 1455  cp image_24019.png /home/manish/mask_result/comparison/pspnet/
+ 1456  cp image_24025.png image_24031.png image_24068.png image_24071.png image_24074.png image_24083.png image_24090.png image_24091.png image_24098.png /home/manish/mask_result/comparison/pspnet/
+ 1460  cp image_24025.png image_24031.png image_24068.png image_24071.png image_24074.png image_24083.png image_24090.png image_24091.png image_24098.png /home/manish/mask_result/comparison/proposed/
+ 1461  cp image_24002.png image_24015.png image_24014.png image_24016.png image_24019.png /home/manish/mask_result/comparison/pspnet/
+ 1462  cp image_24002.png image_24015.png image_24014.png image_24016.png image_24019.png /home/manish/mask_result/comparison/proposed/
+ 1465  cp image_24002.png image_24015.png image_24014.png image_24016.png image_24019.png /home/manish/mask_result/comparison/pspnet/
+ 1467  scp -r /home/manish/mask_result/comparison manish@172.21.208.169:/home/Dropbox/arc_segmentation 
+ 1468  scp -r /home/manish/mask_result/comparison ilab@172.21.208.169:/home/Dropbox/arc_segmentation 
+ 1469  scp -r /home/manish/mask_result/comparison ilab@172.21.208.169:/home/ilab/Dropbox/arc_segmentation 
+ 1470  scp -r /home/manish/mask_result/comparison ilab@172.21.208.169: 
+ 1471  sudo scp -r /home/manish/mask_result/comparison ilab@172.21.208.169: 
+ 1472  cd
+ 1473  cd Mask_RCNN-2.0/
+ 1482  exit
+ 1487  ./test2
+ 1489  ./test2
+ 1492  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1493  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/PSPNet/DecLrconv5_new__iter_1230.caffemodel
+ 1494  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1495  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/PSPNet/DecLrconv5_new__iter_1230.caffemodel
+ 1496  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1497  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/PSPNet/NoAux__iter_1230.caffemodel
+ 1498  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1499  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1500  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/PSPNet/new5_3and5_2__iter_1230.caffemodel
+ 1501  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1502  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/PSPNet/final_newData_iter_1230.caffemodel
+ 1503  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/PSPNet/final_newData_iter_1230.caffemodel 
+ 1504  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1505  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/PSPNet/final_newData2_iter_1230.caffemodel 
+ 1506  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1507  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/PSPNet/final_newData2_iter_1230.caffemodel 
+ 1508  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel
+ 1512  python manage.py makemigrations
+ 1514  python2 manage.py makemigrations
+ 1516  python2 manage.py makemigrations
+ 1517  python2 manage.py migrate
+ 1520  sudo scp -r /home/manish/mask_result/comparison/Maskrcnn ilab@172.21.208.169:/home/ilab/comparison/
+ 1521  cd
+ 1522  cd /media/usb0/arc/corrected/clutter_images_val/
+ 1523  ls | grep 24001
+ 1524  sudo scp 24002.png 24014.png 24015.png 24016.png 24098.png 24019.png 24025.png 24091.png 24068.png 24031.png 24031.png 24071.png 24083.png 24074.png 24090.png manish@172.21.208.177:
+ 1525  sudo scp 24002.png 24014.png 24015.png 24016.png 24098.png 24019.png 24025.png 24091.png 24068.png 24031.png 24031.png 24071.png 24083.png 24074.png 24090.png manish@172.21.208.195: /home/manish/comparison
+ 1526  sudo scp 24002.png 24014.png 24015.png 24016.png 24098.png 24019.png 24025.png 24091.png 24068.png 24031.png 24031.png 24071.png 24083.png 24074.png 24090.png manish@172.21.208.195: /home/manish/
+ 1527  sudo scp 24002.png 24014.png 24015.png 24016.png 24098.png 24019.png 24025.png 24091.png 24068.png 24031.png 24031.png 24071.png 24083.png 24074.png 24090.png manish@172.21.208.195:
+ 1528  sudo scp /home/manish/anaconda3/envs/maskrcnn/lib/python3.5/site-packages/pycocotools/cocoeval.py manish@172.21.208.195:
+ 1529  cd Mask_RCNN-2.0/
+ 1530  python3 coco_arc.py train -dataset=/media/usb0/arc -logs=/home/manish/Mask_RCNN-2.0/logs/resnet50 -model=coco
+ 1531  python3 coco_arc.py train --dataset=/media/usb0/arc --logs=/home/manish/Mask_RCNN-2.0/logs/resnet50 --model=coco
+ 1532  python3 coco_arc.py train --dataset=/media/usb0/arc/corrected --logs=/home/manish/Mask_RCNN-2.0/logs/resnet50 --model=coco
+ 1533  python3 coco_arc.py evaluate --dataset=/media/usb0/arc --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/mask_rcnn_coco_0004.h5 --limit=5
+ 1535  python3 coco_arc.py evaluate --dataset=/media/usb0/arc --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/mask_rcnn_coco_0004.h5 --limit=5
+ 1537  python3 coco_arc.py evaluate --dataset=/media/usb0/arc --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/mask_rcnn_coco_0004.h5 --limit=6000
+ 1538  python3 coco_arc.py evaluate --dataset=/media/usb0/arc --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180329T2129/mask_rcnn_coco_0004.h5 --limit=6000
+ 1539  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=6000
+ 1542  cd /media/usb0/cocoapi
+ 1549  cd Mask_RCNN-2.0/
+ 1552  cd /home/
+ 1562  cd pspnet_test
+ 1564  sudo scp /home/manish/Mask_RCNN-2.0/demo_test.py manish@172.21.208.195:
+ 1565  scp /home/manish/Mask_RCNN-2.0/logs/coco20180321T1157/mask_rcnn_coco_0004.h5 manish@172.21.208.195: 
+ 1566  sudo scp /home/manish/Mask_RCNN-2.0/logs/coco20180321T1157/mask_rcnn_coco_0004.h5 manish@172.21.208.195: 
+ 1568  sudo scp /home/manish/Mask_RCNN-2.0/logs/coco20180321T1157/mask_rcnn_coco_0004.h5 manish@172.21.208.195:
+ 1569  sudo scp /home/manish/Mask_RCNN-2.0/coco_arc.py manish@172.21.208.195: 
+ 1570  sudo scp -r /home/manish/mask_result manish@172.21.208.195:
+ 1572  cd kanika/pspnet_test/build/
+ 1573  ./test2
+ 1576  cd Mask_RCNN-2.0/
+ 1582  sudo mogrify -crop 900x900+600+30 -path ./test_data*.png 
+ 1589  scp -r /home/manish/mask_result manish@172.21.208.195:
+ 1590  sudo scp -r /home/manish/mask_result manish@172.21.208.195:
+ 1591  sudo scp /home/manish/kanika/kanika/final_prototxts/kanika.log manish@172.21.208.195:
+ 1592  exit
+ 1594  sudo scp /home/manish/kanika/kanika/final_prototxts/pspnet.log manish@172.21.208.195:
+ 1600  sudo gedit pngToCocoResultDemo_clutter23.py 
+ 1602  sudo gedit pngToCocoResultDemo_parallel.py 
+ 1612  cd kanika/
+ 1616  scp kanika.log manish@172.21.208.195:
+ 1620  cd cocostuff/
+ 1621  python3 pngToCocoResultDemo_test.py 
+ 1622  source activate maskrcnn
+ 1623  python3 pngToCocoResultDemo_test.py 
+ 1624  cd kanika/kanika/PspNet-Caffe/caffe_pspnet/
+ 1625  cd build/tools/
+ 1626  ./caffe train -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/Proposed_net/30min_final_iter_1382.caffemodel 
+ 1627  hostname -I
+ 1628  sudo watch nvidia-smi
+ 1629  source activate maskrcnn
+ 1632  cd cocostuff/
+ 1642  python3 pngToCocoResultDemo_clutter23.py 
+ 1645  python2 pngToCocoResultDemo_kanika.py 
+ 1652  python -m tensorboard.main
+ 1653  tensorboard --logdir=/home/manish/Mask_RCNN-2.0/logs/coco20180320T1524/events.out.tfevents.1521542029.manish 
+ 1654  tensorboard --logdir=/home/manish/Mask_RCNN-2.0/logs/coco20180320T1524/
+ 1655  tensorboard --logdir=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810 
+ 1656  sudo scp /home/manish/Downloads/run_.-tag-loss(1).csv ilab@172.21.208.163:
+ 1657  sudo scp /home/manish/Downloads/maskrcnn_1000.csv ilab@172.21.208.163
+ 1658  sudo scp /home/manish/Downloads/maskrcnn_1000.csv ilab@172.21.208.163:
+ 1662  cd Mask_RCNN-2.0/
+ 1664  scp /home/manish/kanika/kanika/final_paper_results/PSPNet/DecLr__iter_1230.caffemodel manish@172.21.208.195:
+ 1672  sudo cp -r less_dense_clutters /home/manish/mask_result/
+ 1682  chmod --help
+ 1687  ./caffe train -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel 
+ 1688  ./caffe train -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/PSPNet/final_30mins_iter_1320.caffemodel
+ 1689  ./caffe train -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/PSPNet/final_30mins_iter_294.caffemodel
+ 1692  pspnet_test/
+ 1696  ./test2 
+ 1701  python2 overlay.py 
+ 1702  exit
+ 1712  ./caffe train -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_prototxts/proposed_30min_final_iter_1384.caffemodel 
+ 1716  sudo scp /home/manish/Mask_RCNN-2.0/logs/gillete/coco20180405T2312/mask_rcnn_coco_0052.h5 manish@172.21.208.195:
+ 1717  sudo scp /home/manish/Mask_RCNN-2.0/maskrcnn_arc_results ilab@172.21.208.163:
+ 1718  sudo scp /home/manish/Mask_RCNN-2.0/maskrcnn_arc_results ilab@172.21.208.195:
+ 1719  sudo scp /home/manish/Mask_RCNN-2.0/maskrcnn_arc_results ilab@172.21.208.163:
+ 1720  exit
+ 1721  teamviewer 
+ 1722  source activate maskrcnn
+ 1723  cd Mask_RCNN
+ 1724  cd Mask_RCNN-2.0/
+ 1725  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 2>&1 | tee /home/manish/maskrcnn_tpfp.log
+ 1726  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=6000 2>&1 | tee /home/manish/maskrcnn_tpfp.log 
+ 1727  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=6 2>&1 | tee /home/manish/maskrcnn_tpfp.log 
+ 1728  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=6000 2>&1 | tee /home/manish/maskrcnn_tpfp.log 
+ 1729  sudo watch nvidia-smi
+ 1730  sudo scp /home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 manish@172.21.208.195:
+ 1731  sudo scp /media/usb0/arc/arc_val.json  manish@172.21.208.195:
+ 1732  exit
+ 1733  sudo scp /home/manish/anaconda3/envs/maskrcnn/lib/python3.5/site-packages/pycocotools/cocoeval.py   manish@172.21.208.195:
+ 1734  sudo scp /home/manish/kanika/kanika/final_prototxts/kanika_final.prototxt ilab@171.21.208.163:
+ 1735  sudo scp /home/manish/kanika/kanika/final_prototxts/kanika_final.prototxt ilab@172.21.208.163:
+ 1742  sudo find -name "*caffe.TEST*" -print
+ 1745  python2 mIOU.py 
+ 1747  python2 mIOU.py 
+ 1749  python2 mIOU.py 
+ 1751  python2 mIOU.py 
+ 1752  python2 mIOU_pspnet.py 
+ 1759  python2
+ 1762  ./caffe train -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1763  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1764  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/101/pspnet/101_final_30mins_iter_2108.caffemodel
+ 1765  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1766  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1767  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1769  scp /home/manish/kanika/kanika/confusion_matrix/ProposedNet.ods /home/manish/kanika/kanika/confusion_matrix/PSPNet_101.ods /home/manish/kanika/kanika/confusion_matrix/PSPNet_final.ods ilab@172.21.208.163:
+ 1770  sudo scp /home/manish/kanika/kanika/final_prototxts/pspnet50_TrainTest_final.prototxt ilab@172.21.208.163:
+ 1772  sudo watch nvidia-smi
+ 1774  scp /home/manish/kanika/kanika/confusion_matrix/ProposedNet101.ods /home/manish/kanika/kanika/confusion_matrix/PSPNet_101.ods ilab@172.21.208.163:
+ 1776  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1778  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1780  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel 
+ 1781  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /h/home/manish/kanika/kanika/final_paper_results/new_data/101/pspnet/101_5_2_5_3_30mins_iter_2113.caffemodel
+ 1782  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP_101.prototxt -weights /home/manish/kanika/kanika/final_paper_results/new_data/101/pspnet/101_5_2_5_3_30mins_iter_2113.caffemodel
+ 1783  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test_101.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet101_VOC2012.caffemodel
+ 1789  cd Mask_RCNN-2.0/
+ 1792  source activate maskrcnn
+ 1793  python3 coco.py train --dataset=/home/manish/kanika/Gillette_data --model=last --log=/home/manish/Mask_RCNN-2.0/logs/gillete
+ 1795  cd Mask_RCNN-2.0/
+ 1796  python3 coco.py train --dataset=/home/manish/kanika/Gillette_data --model=last --log=/home/manish/Mask_RCNN-2.0/logs/gillete
+ 1798  python3 coco_arc.py --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=10
+ 1799  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=10
+ 1800  python3 coco_arc.py evaluate --dataset=/media/usb0/arc/corrected/ --model=/home/manish/Mask_RCNN-2.0/logs/resnet50/coco20180402T1810/mask_rcnn_coco_0004.h5 --limit=6000
+ 1802  ls
+ 1804  feh 24001.png
+ 1805  display 24001.png 
+ 1812  python2.7 capsulenet.py
+ 1820  python
+ 1821  python2 manage.py runserver 0.0.0.0:8000
+ 1822  cd ..
+ 1823  ls
+ 1824  cd BatchNumberRecognition/
+ 1825  python2.7 batch_number_recognition.py
+ 1826  cd
+ 1827  cd vivek/
+ 1828  cd Capsule_network/
+ 1829  ls
+ 1832  cd result/
+ 1842  cd ..
+ 1847  sudo scp -r /home/manish/anaconda3/envs/maskrcnn/lib/python3.5/site-packages/pycocotools ilab@172.21.208.169:/home/ilab/pycocotools_ server
+ 1848  sudo scp -r /home/manish/anaconda3/envs/maskrcnn/lib/python3.5/site-packages/pycocotools ilab@172.21.208.169:/home/ilab/pycocotools_server
+ 1852  cd
+ 1857  python2.7 capsulenet.py
+ 1861  ping 172.21.208.177
+ 1862  ping 10.134.61.159
+ 1863  ping 172.21.208.177
+ 1865  telnet 10.134.61.159 22
+ 1866  telnet 10.134.61.159 23
+ 1869  telnet 10.134.61.159 22
+ 1872  cd ../clutter_masks_train/
+ 1873  find .  -name "*.png*" -print >> /home/manish/kanika/kanika/data/train_mit_img2.txt
+ 1877  find .  -name "*.png*" -print >> /home/manish/kanika/kanika/data/val_mit_img2.txt
+ 1881  cat train_mit_img2.txt | sort > train_mit_img2_sort.txt
+ 1882  awk '{print; if(getline < train_mit_img2_sort.txt) print}' train_mit_img1_sort.txt 
+ 1883  awk '{print; if(getline < "train_mit_img2_sort.txt") print}' train_mit_img1_sort.txt 
+ 1884  awk '{print; if(getline < "train_mit_img2_sort.txt") print}' train_mit_img1_sort.txt >> train_mit1.txt
+ 1885  awk 'ORS=NR%2?FS:RS' train_mit1.txt >>train_mit.txt
+ 1887  cat val_mit_img2.txt | sort > val_mit_img2_sort.txt
+ 1888  awk '{print; if(getline < "val_mit_img2_sort.txt") print}' val_mit_img1_sort.txt >> val_mit1.txt
+ 1889  awk 'ORS=NR%2?FS:RS' val_mit1.txt >>val_mit.txt
+ 1892  ls
+ 1896  python2 mIOU.py 
+ 1897  python2 mIOU_pspnet.py 
+ 1898  scp ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel >> /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/p
+ 1899  scp /home/manish/kanika/kanika/confusion_matrix/mit/ProposedNet50_mit.ods ilab@172.21.208.163:
+ 1902  scp /home/manish/kanika/kanika/confusion_matrix/mit/PSPNet50_mit.ods  ilab@172.21.208.163:
+ 1906  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel >> /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log
+ 1907  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel >> /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log
+ 1908  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/MIT/proposed50/30min_final_iter_1122.caffemodel
+ 1909  ./caffe train -gpu 0 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/MIT/proposed50/30min_final_iter_1122.caffemodel
+ 1910  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/final_paper_results/MIT/proposed50/30min_final_iter_1122.caffemodel
+ 1911  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_stowing_test.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel >> /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log
+ 1912  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel >> /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/pspnet_mit50.log
+ 1913  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP.prototxt -weights /home/manish/kanika/kanika/PspNet-Caffe/Pre_trained_model/pspnet50_ADE20K.caffemodel >> /home/manish/kanika/kanika/final_paper_results/log/mit/pspnet50/pspnet_mit50.log
+ 1914  ./caffe train -gpu 0,1 -solver /home/manish/kanika/kanika/final_prototxts/solver_PSP.prototxt -weights /home/manish/kanika/kanika/final_paper_results/MIT/pspnet50/final_30mins_iter_1275.caffemodel
+ 1920  export $PYTHONPATH=${PYTHONPATH}:/home/manish/PycharmProjects/batch_code_recognition_django/localization
+ 1921  export PYTHONPATH=${PYTHONPATH}:/home/manish/PycharmProjects/batch_code_recognition_django/localization
+ 1922  echo $PYTHONPATH
+ 1923  python manage.py runserver 0.0.0.0:8000
+ 1924  python
+ 1925  python2 manage.py runserver 0.0.0.0:8000
+ 1926  export PYTHONPATH=${PYTHONPATH}/home/manish/PycharmProjects/batch_code_recognition_django/localization
+ 1927  $PYTHONPATH
+ 1928  echo $PYTHONPATH
+ 1929  exit
+ 1932  export PYTHONPATH=${PYTHONPATH}:/home/manish/PycharmProjects/batch_code_recognition_django/batch_code_recognition/BatchNumberRecognition/localization
+ 1933  python2 manage.py runserver 0.0.0.0:8000
+ 1937  python2.7 capsulenet.py
+ 1942  cd PythonAPI/cocostuff/
+ 1951  cd Mask_RCNN-2.0/
+ 1952  source activate maskrcnn
+ 1953  python3 coco_mit50.py train --dataset=/media/usb0/arc/MIT_data/ --model=coco --log=/home/manish/Mask_RCNN-2.0/logs/mit 
+ 1955  python3 coco_mit50.py evaluate --dataset=/media/usb0/arc/MIT_data/ --model=./logs/mit/coco20180505T1459/mask_rcnn_coco_0001.h5 --limit=10
+ 1956  python3 coco_mit50.py evaluate --dataset=/media/usb0/arc/MIT_data/ --model=/home/manish/Mask_RCNN-2.0/logs/mit/coco20180505T1512/mask_rcnn_coco_0004.h5 --limit=6000 2>&1 | tee /home/manish/Mask_RCNN-2.0/logs/mit/coco20180505T1512/maskrcnn_mit.log
+ 1958  sudo pip2 install --upgrade google-cloud-vision
+ 1962  cd PycharmProjects/google_vision_django/
+ 1964  python2 quickstart.py 
+ 1972  python3 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log 
+ 1973  python2 parse_log.py log_/home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/
+ 1974  python2 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/
+ 1975  python2 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50
+ 1977  python2 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50
+ 1978  python2 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log /home/manish/kanika
+ 1979  python2 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log 
+ 1980  python2 parse_log.py /home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log --output_dir=/home/manish
+ 1981  python2 parse_log.py --logfile_path=/home/manish/kanika/kanika/final_paper_results/log/mit/proposed50/proposed_mit50.log --output_dir=/home/manish
+ 1982  exit
+ 1983  sudo cp -r /home/manish/kanika/kanika/final_prototxts -r /home/manish/kanika/kanika/final_paper_results -r /home/manish/kanika/pspnet_test -r /home/manish/Mask_RCNN-2.0/logs/mit /home/manish/Downloads/mit_maskrcnn.csv /home/manish/cocoapi/PythonAPI/cocostuff/pngToCocoResultDemo_mit.py /home/manish/Mask_RCNN-2.0/demo_test.py  /media/usb0/arc/MIT_data/mit_data/ 
+ 1984  sudo scp -r /home/manish/kanika/kanika/final_prototxts -r /home/manish/kanika/kanika/final_paper_results -r /home/manish/kanika/pspnet_test -r /home/manish/Mask_RCNN-2.0/logs/mit /home/manish/Downloads/mit_maskrcnn.csv /home/manish/cocoapi/PythonAPI/cocostuff/pngToCocoResultDemo_mit.py /home/manish/Mask_RCNN-2.0/demo_test.py manish@172.21.208.149:/home/manish/mit_data 
+ 1985  sudo scp -r /home/manish/kanika/kanika/final_paper_results/MIT -r /home/manish/kanika/pspnet_test -r /home/manish/Mask_RCNN-2.0/logs/mit  manish@172.21.208.149:/home/manish/mit_data 
+ 1992  history | grep tensorboard
+ 1993  tensorboard --logdir=/home/manish/Mask_RCNN-2.0/logs/mit/coco20180507T1107 
+ 1996  cd Mask_RCNN-2.0/
+ 1997  python3 coco_mit50.py train --dataset=/media/usb0/arc/MIT_data/ --model=coco --log=/home/manish/Mask_RCNN-2.0/logs/mit 
+ 1998  scp /home/manish/Mask_RCNN-2.0/demo_test.py /home/manish/Downloads/mit_maskrcnn.csv /home/manish/anaconda3/envs/maskrcnn/lib/python3.5/site-packages/pycocotools/cocoeval.py manish@172.21.208.149:/home/manish/mit_data
+ 2000  history | grep 2>&1
+ 2001  history | grep 2&>1

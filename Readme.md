@@ -18,27 +18,30 @@ git clone https://github.com/Harika5N/ProposedNetwork.git
 
 2. Build the caffe and matcaffe.
 
-3. **Training**:
+### Training
+
   * Download the tcs\_arc dataset which was used for training this project from: [tcs\_arc](https://doi.org/10.6084/m9.figshare.6848738.v1)
-  * Download the datasets for pretraining the models:
-    * [ADE20K](https://drive.google.com/file/d/0BzaU285cX7TCN1R3QnUwQ0hoMTA/view)
-    * [VOC2012](https://drive.google.com/file/d/0BzaU285cX7TCNVhETE5vVUdMYk0/view)
+  * Download the pretrained caffe model:
+    * [ADE20K](https://drive.google.com/file/d/0BzaU285cX7TCN1R3QnUwQ0hoMTA/view) - for resnet50 backbone
+    * [VOC2012](https://drive.google.com/file/d/0BzaU285cX7TCNVhETE5vVUdMYk0/view) - for resnet101 backbone
+   
   * Generate a .txt files as the ones present in models/txt_files for training set and validation set using the location where the downloaded dataset was saved.
   * Edit the locations of the text files generated in the above step in the prototxt file for resnet 50 or resnet 101 backbone network.
   * Edit the location prototxt files in the solver file for corresponding network.
-  * To train:
+  * Train the pretrained models using the tcs\_arc dataset as:
 	```
 	cd ~/Pspnet-caffe/caffe-pspnet/build/tools
 	``` 
-  * resnet50:
+    * **resnet50**:
 	```
 	./caffe train -gpu 0,1 -solver .... -weights /<download location of ade20k dataset>/ade20k
 	```
-  * resnet101:
+    * **resnet101**:
 	```
    	./caffe train -gpu 0,1 -solver .... -weights /<download location of VOC2012 dataset>/voc2012
 	```
-4. **Evaluation**:
+
+### Evaluation
   * The evaluation code is available in evaluation folder.
   * Build the code and run it as:
   	````
